@@ -4,7 +4,7 @@ const withAuth = require("../../utils/auth");
 
 //returns all comments from db
 router.get("/", (req, res) => {
-  Comment.findAll()
+  Comment.findAll({})
     .then((commentData) => res.json(commentData))
     .catch((err) => {
       console.log(err);
@@ -13,11 +13,11 @@ router.get("/", (req, res) => {
 });
 
 //enters comment into db
-router.post("/", withAuth, (req, res) => {
+router.post("/", (req, res) => {
   Comment.create({
-    comment_text: req.body.comment,
+    comment: req.body.comment,
     user_id: req.session.user_id,
-    post_id: req.body.post_id,
+    project_id: req.body.project_id,
   })
     .then((commentData) => res.json(commentData))
     .catch((err) => {
@@ -27,7 +27,7 @@ router.post("/", withAuth, (req, res) => {
 });
 
 //delete comment from db
-router.delete("/:id", withAuth, (req, res) => {
+router.delete("/:id", (req, res) => {
   Comment.destroy({
     where: {
       id: req.params.id,

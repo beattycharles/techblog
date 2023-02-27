@@ -7,6 +7,6 @@
   {
       "title": "Authentication vs. Authorization",
       "description": "There is a difference between authentication and authorization. Authentication means confirming your own identity, whereas authorization means being allowed access to the system.",
-      "user_id": 1
+      "user_id": 2
   }
 ]

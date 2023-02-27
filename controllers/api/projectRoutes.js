@@ -37,7 +37,7 @@ router.delete("/:id", withAuth, async (req, res) => {
 });
 // get post from user
 router.get("/:id", (req, res) => {
-  Post.findOne({
+  Project.findOne({
     where: {
       id: req.params.id,
     },
