@@ -12,7 +12,7 @@ const addComment = async (event) => {
     });
 
     if (response.ok) {
-      alert("Comment Added!!");
+      location.reload();
     } else {
       alert(response.statusText);
     }
