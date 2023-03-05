@@ -13,7 +13,7 @@ router.get("/", (req, res) => {
 });
 
 //enters comment into db
-router.post("/", (req, res) => {
+router.post("/", withAuth, (req, res) => {
   Comment.create({
     comment: req.body.comment,
     user_id: req.session.user_id,
