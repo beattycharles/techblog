@@ -15,12 +15,7 @@
  blog posts and comment on other developers’ posts as well. 
 
 ## Usage
-Dependencies need to be installed with npm i from the terminal.
-MySql, HandleBars,  Sequelize
-Add a .env file with: 
-DB_NAME='Database Name'
-DB_USER='your user name: Default: root'
-DB_PASSWORD='Your Password'
+Site allows discussion of technology. Please visit and give your thoughts.
 
 ## Screenshot
 ![Screenshot](./public/assits/TechBlog.PNG)
