@@ -23,7 +23,7 @@ Site allows discussion of technology. Please visit and give your thoughts.
 ## Access
 
 [Github](https://www.github.com/beattycharles)
-[Tech Blog](https://git.heroku.com/whispering-taiga-51694.git)
+[Tech Blog](https://whispering-taiga-51694.herokuapp.com/)
 
 ## Credits
 Special Thanks to: https://github.com/BogartDME, https://github.com/EvolanGIT, and https://github.com/difurung,
