@@ -28,7 +28,7 @@ DB_PASSWORD='Your Password'
 ## Access
 
 [Github](https://www.github.com/beattycharles)
-[Tech Blog](https://github.com/beattycharles/e-commerce)
+[Tech Blog](https://git.heroku.com/whispering-taiga-51694.git)
 
 ## Credits
 Special Thanks to: https://github.com/BogartDME, https://github.com/EvolanGIT, and https://github.com/difurung,
