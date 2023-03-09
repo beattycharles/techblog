@@ -5,7 +5,7 @@
   <p>
     {{#each comments as |comment|}}
   
-   <p> {{comment.comment}} Made by {{../user.name}} on {{format_date date_created}} </p>
+   <p> {{comment.comment}} Made by {{../user}} {{user.name}} on {{format_date date_created}} </p>
    
     {{/each}}
   </p>
